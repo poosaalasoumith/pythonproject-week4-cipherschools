@@ -1,0 +1,15 @@
+f=open("file1.txt")
+# print(f"curson position-{f.tell()}")
+# print(f.read())
+# print("before seek method")
+# f.seek(0)
+# print("After seek method")
+# print(f.read())
+# f.close()
+# lines=f.readlines()
+# print(len(lines))
+# for line in lines:
+#           print(line,end="")
+
+print(f.closed)
+f.close()
